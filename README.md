@@ -8,42 +8,42 @@ Locate the folder named Prodigy_WD_05.
 
 Either:
 
-Download the entire folder, or
+->Download the entire folder, or
 
-Copy the contents of the folder into your local project directory.
+->Copy the contents of the folder into your local project directory.
 
 Insert Your Weather API Key:
 
-Open the file script.js.
+->Open the file script.js.
 
-Find the section where the API key is required (typically at the top of the file).
+->Find the section where the API key is required (typically at the top of the file).
 
-Replace the placeholder text with your actual API Key.
+->Replace the placeholder text with your actual API Key.
 
 Save Changes:
 
-After inserting your API key, save the file.
+->After inserting your API key, save the file.
 
 Run the Webpage:
 
-Do not run index.html directly from an IDE (e.g., VS Code).
+->Do not run index.html directly from an IDE (e.g., VS Code).
 
-Instead, navigate to the folder containing the project files using File Explorer or Finder.
+->Instead, navigate to the folder containing the project files using File Explorer or Finder.
 
-Double-click on the index.html file to open and run the webpage in your default web browser.
+->Double-click on the index.html file to open and run the webpage in your default web browser.
 
 🔑 How to Get a Weather API Key:
 Visit the OpenWeatherMap website.
 
-Create a new account or sign in if you're already a user.
+->Create a new account or sign in if you're already a user.
 
-Go to your profile section.
+->Go to your profile section.
 
-Find and click on the "My API Keys" option.
+->Find and click on the "My API Keys" option.
 
-Either:
+->Either:
 
-Generate a new API key, or
+->Generate a new API key, or
 
-Use an existing one listed in your account.
+->Use an existing one listed in your account.
 
