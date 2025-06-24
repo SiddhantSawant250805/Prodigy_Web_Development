@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#display {
+  font-size: 3rem;
+  margin: 1rem 0;
+  font-family: monospace;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#startStop { background-color: #4CAF50; color: white; }
+#lap { background-color: #FFC107; color: black; }
+#reset { background-color: #F44336; color: white; }
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#laps {
+  list-style: decimal inside;
+  margin-top: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-left: 0;
+  text-align: left;
+}
