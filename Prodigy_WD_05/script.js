@@ -1,4 +1,4 @@
-const API_KEY = "4a600b1eea382829850f7412d899ed2d"; // Your actual API key
+const API_KEY = "YOUR_API_KEY"; // Your actual API key
 
 const form = document.getElementById("weatherForm");
 const cityInput = document.getElementById("cityInput");
